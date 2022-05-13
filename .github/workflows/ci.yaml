@@ -55,7 +55,7 @@ jobs:
           allow-initial-development-versions: true
           update-file: package.json
           changelog-generator-opt: "emojis=true"
-      - run: npm publish
+      - run: npm publish --access=public
         if: steps.semrel.outputs.version != ''
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
