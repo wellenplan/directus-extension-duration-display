@@ -3,7 +3,7 @@
 exports[`duration display index should define a display 1`] = `
 Object {
   "component": Object {
-    "name": "display",
+    "__name": "display",
     "props": Object {
       "value": Object {
         "required": false,
